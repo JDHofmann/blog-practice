@@ -1,8 +1,11 @@
+import Layout from "../components/Layout"
+
 const Index = ({ title, description, ...props }) => {
   return (
-    <div>
+    <Layout pageTitle={title}>
       <h1>Index</h1>
-    </div>
+      <p>{description}</p>
+    </Layout>
   )
 }
 export default Index 
