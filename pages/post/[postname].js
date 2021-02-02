@@ -39,6 +39,7 @@ export async function getStaticProps({ ...ctx }) {
 }
 
 export async function getStaticPaths(){
+    // defines a list of paths to be rendered to HTML at build time
     const blogSlugs = ((context) => {
         const keys = context.keys()
         const data = keys.map((key, index) => {
