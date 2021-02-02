@@ -5,6 +5,9 @@ const Index = ({ title, description, ...props }) => {
     <Layout pageTitle={title}>
       <h1>Index</h1>
       <p>{description}</p>
+      <main>
+        Posts will go here
+      </main>
     </Layout>
   )
 }

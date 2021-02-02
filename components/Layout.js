@@ -9,6 +9,7 @@ export default function({ children, pageTitle, ...props }) {
                 <title>{pageTitle}</title>
             </Head>
             <section className="layout">
+                <Header />
                 <div className="content">{children}</div>
             </section>
             <footer><p>Built by JDBH</p></footer>
